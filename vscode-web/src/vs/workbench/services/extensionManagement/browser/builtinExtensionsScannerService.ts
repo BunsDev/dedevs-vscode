@@ -65,13 +65,13 @@ export class BuiltinExtensionsScannerService implements IBuiltinExtensionsScanne
 					}
 				}
 
-				// below codes are changed by github1s
+				// below codes are changed by dedevs-vscode
 				if (Array.isArray(window?.vscodeWeb?.builtinExtensions)) {
 					bundledExtensions.push(...(window?.vscodeWeb?.builtinExtensions || []));
 				} else if (typeof window?.vscodeWeb?.builtinExtensions === 'function') {
 					bundledExtensions = window?.vscodeWeb?.builtinExtensions(bundledExtensions);
 				}
-				// above codes are changed by github1s
+				// above codes are changed by dedevs-vscode
 
 				this.builtinExtensionsPromises = bundledExtensions.map(async e => {
 					const id = getGalleryExtensionId(e.packageJSON.publisher, e.packageJSON.name);

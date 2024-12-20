@@ -4,7 +4,7 @@ export const createProductConfiguration = (platform: Platform) => ({
 	nameShort: platform + '1s',
 	nameLong: platform + '1s',
 	applicationName: platform + '1s',
-	reportIssueUrl: 'https://github.com/conwnet/github1s/issues/new',
+	reportIssueUrl: 'https://github.com/bunsdev/dedevs-vscode/issues/new',
 	extensionsGallery: {
 		resourceUrlTemplate:
 			'https://open-vsx.org/vscode/asset/{publisher}/{name}/{version}/Microsoft.VisualStudio.Code.WebResources/{path}',
@@ -12,6 +12,7 @@ export const createProductConfiguration = (platform: Platform) => ({
 		itemUrl: 'https://open-vsx.org/vscode/item',
 	},
 	linkProtectionTrustedDomains: [
+		'*.dedevs.club',
 		'*.github.com',
 		'*.github1s.com',
 		'*.gitlab.com',

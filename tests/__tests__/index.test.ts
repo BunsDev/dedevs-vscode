@@ -32,7 +32,7 @@ afterEach(async () => {
 });
 
 it('should load successfully', async () => {
-	await page.goto(`${BASE_URL}/conwnet/github1s`);
+	await page.goto(`${BASE_URL}/bunsdev/dedevs-vscode`);
 	expect(await page.title()).toMatch(/.*GitHub1s/);
 
 	// Make sure the VS Code loads
@@ -47,7 +47,7 @@ it('should load successfully', async () => {
 	const tab = await page.$eval('div[role="tab"] .label-name', (el: HTMLElement) => el.innerText);
 	expect(tab).toBe('[Preview] README.md');
 	// Title updated based on the repo
-	expect(await page.title()).toMatch(/\[Preview\] README\.md . conwnet\/github1s . GitHub1s/);
+	expect(await page.title()).toMatch(/\[Preview\] README\.md . bunsdev\/dedevs-vscode . GitHub1s/);
 	await page.waitForTimeout(5000);
 
 	// README file will be rendered in an iframe
@@ -61,7 +61,7 @@ it('should load successfully', async () => {
 });
 
 it('should open file correctly', async () => {
-	await page.goto(`${BASE_URL}/conwnet/github1s`);
+	await page.goto(`${BASE_URL}/bunsdev/dedevs-vscode`);
 	await page.waitForTimeout(3000);
 	await page.click('[aria-label="~/tsconfig.json"]');
 	await page.click('[data-resource-name="tsconfig.json"]');
@@ -72,7 +72,7 @@ it('should open file correctly', async () => {
 });
 
 it('should show Commit files', async () => {
-	await page.goto(`${BASE_URL}/conwnet/github1s/commit/ecd252fa54de41b1cb622ff5a1f8a1b715d3b621`);
+	await page.goto(`${BASE_URL}/bunsdev/dedevs-vscode/commit/ecd252fa54de41b1cb622ff5a1f8a1b715d3b621`);
 	await page.waitForSelector('.monaco-action-bar.vertical ul.actions-container[aria-label="Active View Switcher"]');
 	await page.press('body', 'Control+Shift+G');
 	await page.waitForTimeout(6000);

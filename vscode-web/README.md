@@ -1,6 +1,6 @@
-# @github1s/vscode-web
+# @dedevs/vscode-web
 
-This is the companion NPM package to support GitHub1s. The NPM package is [@github1s/vscode-web](https://www.npmjs.com/package/@github1s/vscode-web).
+This is the companion NPM package to support dedevs. The NPM package is [@dedevs/vscode-web](https://www.npmjs.com/package/@dedevs/vscode-web).
 
 ## Commands
 
@@ -10,20 +10,20 @@ This is the companion NPM package to support GitHub1s. The NPM package is [@gith
 
 `yarn watch` - watch the code change under `src` directory and rebuild VS Code.
 
-## Local development
+## Local Development
 
-There are two ways to do local development with GitHub1s. For feature development, you could use the `yarn watch-with-vscode` under the root directory.
+There are two ways to do local development with vscode-web. For feature development, you could use the `yarn watch-with-vscode` under the root directory.
 
 To verify the NPM package content itself before publish. You need to install the [yalc](https://github.com/wclr/yalc) first (`yarn global add yalc`).
 
 Then run the following commands:
 
 ```sh
-cd github1s
-yarn build:vscode # Build the VS Code
+cd dedevs-vscode
+yarn build:vscode # Build VSCode
 yarn yalc # Install local package via yalc
 
-yarn build # Build the GitHub1s & other extensions
+yarn build # Build dedevs-vscode & other extensions
 yarn serve
 ```
 
@@ -34,7 +34,7 @@ And visit the http://localhost:8080 to verify the change. Please revert any chan
 To publish the NPM package, please make sure you have the right access via https://www.npmjs.com/ and run the following commands:
 
 ```sh
-cd github1s
+cd dedevs-vscode
 cd vscode-web
 yarn build
 # bump the `version` field in vscode-web/package.json file.

@@ -11,7 +11,7 @@ import * as queryString from 'query-string';
 import { memorize } from '@/helpers/func';
 import { getBrowserUrl } from '@/helpers/context';
 
-export const DEFAULT_REPO = 'conwnet/github1s';
+export const DEFAULT_REPO = 'bunsdev/dedevs-vscode';
 
 export const getCurrentRepo = memorize(() => {
 	return getBrowserUrl().then((browserUrl: string) => {
@@ -44,7 +44,7 @@ const parseBlobUrl = async (path: string): Promise<RouterState> => {
 	}
 
 	// get selected line number range from path which looks like:
-	// `/conwnet/github1s/blob/master/package.json#L10-L20`
+	// `/bunsdev/dedevs-vscode/blob/master/package.json#L10-L20`
 	const matches = routerHash.match(/^#L(\d+)(?:-L(\d+))?/);
 	const [_, startLineNumber = '0', endLineNumber] = matches ? matches : [];
 

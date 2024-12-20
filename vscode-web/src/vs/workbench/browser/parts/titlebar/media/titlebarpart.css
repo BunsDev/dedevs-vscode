@@ -475,7 +475,7 @@
 	color: var(--vscode-titleBar-inactiveForeground);
 }
 
-/* below codes are changed by github1s */
+/* below codes are changed by dedevs-vscode */
 .monaco-workbench .activitybar > .content > .home-bar {
 	opacity: 1;
 	height: 48px;
@@ -496,4 +496,4 @@
 .monaco-workbench .activitybar > .content > .home-bar.home-bar-clickable:active {
 	opacity: 0.4;
 }
-/* above codes are changed by github1s */
+/* above codes are changed by dedevs-vscode */

@@ -305,11 +305,11 @@ export class LabelService extends Disposable implements ILabelService {
 	}
 
 	getWorkspaceLabel(workspace: IWorkspace | IWorkspaceIdentifier | ISingleFolderWorkspaceIdentifier | URI, options?: { verbose: Verbosity }): string {
-		/* below codes are changed by github1s */
+		/* below codes are changed by dedevs-vscode */
 		if (window?.vscodeWeb?.workspaceLabel) {
 			return window?.vscodeWeb?.workspaceLabel as string;
 		}
-		/* above codes are changed by github1s */
+		/* above codes are changed by dedevs-vscode */
 
 		if (isWorkspace(workspace)) {
 			const identifier = toWorkspaceIdentifier(workspace);

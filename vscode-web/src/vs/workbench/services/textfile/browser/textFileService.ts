@@ -78,11 +78,11 @@ export abstract class AbstractTextFileService extends Disposable implements ITex
 	) {
 		super();
 
-		/* below codes are changed by github1s */
+		/* below codes are changed by dedevs-vscode */
 		if (!window?.vscodeWeb?.hideTextFileLabelDecorations) {
 			this.provideDecorations();
 		}
-		/* above codes are changed by github1s */
+		/* above codes are changed by dedevs-vscode */
 	}
 
 	//#region decorations

@@ -24,7 +24,7 @@ jobs:
           # Force 0 exit code to allow SARIF file generation
           # This will handover control about PR rejection to the GitHub side
           max-allowed-issues: 2147483647
-          # only scan the github1s directory
+          # only scan the dedevs-vscode directory
           directory: $GITHUB_WORKSPACE/extensions/github1s
 
       # Upload the SARIF file generated in the previous step

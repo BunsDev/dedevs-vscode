@@ -289,31 +289,31 @@ export class DataSource {
 
 export enum PageType {
 	// show the structure of a dictionary
-	// e.g. https://github.com/conwnet/github1s/tree/master/src/vs
+	// e.g. https://github.com/bunsdev/dedevs-vscode/tree/master/src/vs
 	Tree = 'Tree',
 
 	// show the content for a file
-	// e.g. https://github.com/conwnet/github1s/blob/master/extensions/github1s/src/extension.ts
+	// e.g. https://github.com/bunsdev/dedevs-vscode/blob/master/extensions/github1s/src/extension.ts
 	Blob = 'Blob',
 
 	// show the commit list of a repository
-	// e.g. https://github.com/conwnet/github1s/commits/master
+	// e.g. https://github.com/bunsdev/dedevs-vscode/commits/master
 	CommitList = 'CommitList',
 
 	// show the detail of a commit
-	// e.g. https://github.com/conwnet/github1s/commit/c1264f7338833c7aa3a502c4629df8aa6b7d6ccf
+	// e.g. https://github.com/bunsdev/dedevs-vscode/commit/c1264f7338833c7aa3a502c4629df8aa6b7d6ccf
 	Commit = 'Commit',
 
 	// show the pull request (or merge request) list of a repository
-	// e.g. https://github.com/conwnet/github1s/pulls
+	// e.g. https://github.com/bunsdev/dedevs-vscode/pulls
 	CodeReviewList = 'CodeReviewList',
 
 	// show the detail of a pull request (or merge request)
-	// e.g. https://github.com/conwnet/github1s/pull/81
+	// e.g. https://github.com/bunsdev/dedevs-vscode/pull/81
 	CodeReview = 'CodeReview',
 
 	// show the file blame
-	// e.g. https://github.com/conwnet/github1s/blame/master/.gitignore
+	// e.g. https://github.com/bunsdev/dedevs-vscode/blame/master/.gitignore
 	FileBlame = 'FileBlame',
 
 	// show search result

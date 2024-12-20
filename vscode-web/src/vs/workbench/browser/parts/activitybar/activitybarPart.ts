@@ -278,14 +278,14 @@ export class ActivityBarCompositeBar extends PaneCompositeBar {
 		this.menuBarContainer.classList.add('menubar');
 
 		const content = assertIsDefined(this.element);
-		/* below codes are changed by github1s */
+		/* below codes are changed by dedevs-vscode */
 		const homeBarContainer = this.element?.querySelector('.home-bar');
 		if (homeBarContainer) {
 			content.insertBefore(this.menuBarContainer, homeBarContainer.nextSibling);
 		} else {
 			content.prepend(this.menuBarContainer);
 		}
-		/* above codes are changed by github1s */
+		/* above codes are changed by dedevs-vscode */
 
 		// Menubar: install a custom menu bar depending on configuration
 		this.menuBar = this._register(this.instantiationService.createInstance(CustomMenubarControl));
@@ -332,7 +332,7 @@ export class ActivityBarCompositeBar extends PaneCompositeBar {
 	override create(parent: HTMLElement): HTMLElement {
 		this.element = parent;
 
-		/* below codes are changed by github1s */
+		/* below codes are changed by dedevs-vscode */
 		const logo = window?.vscodeWeb?.logo as { icon?: string; title?: string; onClick?: () => void } | undefined;
 		const homeBarContainer = document.createElement('div');
 		homeBarContainer.className = 'home-bar';
@@ -349,7 +349,7 @@ export class ActivityBarCompositeBar extends PaneCompositeBar {
 			homeBarContainer.classList.add('home-bar-clickable');
 		}
 		this.element.prepend(homeBarContainer);
-		/* above codes are changed by github1s */
+		/* above codes are changed by dedevs-vscode */
 
 		// Install menubar if compact
 		if (getMenuBarVisibility(this.configurationService) === 'compact') {

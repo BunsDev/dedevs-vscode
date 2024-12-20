@@ -4,10 +4,10 @@
 <head>
 	<meta charset="UTF-8">
 
-	<!-- below codes are changed by github1s -->
+	<!-- below codes are changed by dedevs-vscode -->
 	<meta http-equiv="Content-Security-Policy"
 		content="default-src 'none'; script-src 'unsafe-inline' 'self'; frame-src 'self'; style-src 'unsafe-inline' 'self'; img-src 'self' https: data:; media-src 'self' https: data:; font-src 'self' https: data:;">
-	<!-- above codes are changed by github1s -->
+	<!-- above codes are changed by dedevs-vscode -->
 
 	<!-- Disable pinch zooming -->
 	<meta name="viewport"
@@ -342,10 +342,10 @@
 			}
 
 			async signalReady() {
-				/* below codes are changed by github1s */
+				/* below codes are changed by dedevs-vscode */
 				const parentOrigin = searchParams.get('parentOrigin') || '';
 				window.parent.postMessage({ target: ID, channel: 'webview-ready', data: {} }, parentOrigin, [this.channel.port2]);
-				/* above codes are changed by github1s */
+				/* above codes are changed by dedevs-vscode */
 			}
 		}();
 

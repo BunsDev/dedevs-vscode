@@ -1,4 +1,4 @@
-![GitHub1s](https://raw.githubusercontent.com/conwnet/github1s/master/resources/images/logo.svg)
+![GitHub1s](https://raw.githubusercontent.com/bunsdev/dedevs-vscode/master/resources/images/logo.svg)
 
 # github1s
 
@@ -12,11 +12,11 @@ For example, try it on the VS Code repo:
 
 [https://github1s.com/microsoft/vscode](https://github1s.com/microsoft/vscode)
 
-![VS Code - GitHub1s](https://raw.githubusercontent.com/conwnet/github1s/master/resources/images/vs-code-github1s.png)
+![VS Code - GitHub1s](https://raw.githubusercontent.com/bunsdev/dedevs-vscode/master/resources/images/vs-code-github1s.png)
 
 You can also use [https://gitlab1s.com](https://gitlab1s.com) or [https://npmjs1s.com](https://npmjs1s.com) in the same way.
 
-For browser extensions, see [Third-party Related Projects](https://github.com/conwnet/github1s#third-party-related-projects).
+For browser extensions, see [Third-party Related Projects](https://github.com/bunsdev/dedevs-vscode#third-party-related-projects).
 
 Or save the following code snippet as a bookmarklet, you can use it to quickly switch between github.com and github1s.com (GitHub markdown doesn't allow js links, so just copy it into a bookmark).
 
@@ -28,24 +28,24 @@ javascript: window.location.href = window.location.href.replace(/github(1s)?.com
 
 To edit files, run Docker containers, create pull requests and more, click the "Develop your project on [Gitpod](https://www.gitpod.io)" button in the status bar. You can also open the Command Palette (default shortcut `Ctrl+Shift+P`) and choose `GitHub1s: Edit files in Gitpod`.
 
-![Gitpod Status Bar](https://raw.githubusercontent.com/conwnet/github1s/master/resources/images/gitpod-statusbar.png)
+![Gitpod Status Bar](https://raw.githubusercontent.com/bunsdev/dedevs-vscode/master/resources/images/gitpod-statusbar.png)
 
 ## Documentation
 
-- [How it works](https://github.com/conwnet/github1s/blob/master/docs/guide.md)
-- [Roadmap](https://github.com/conwnet/github1s/projects/1)
+- [How it works](https://github.com/bunsdev/dedevs-vscode/blob/master/docs/guide.md)
+- [Roadmap](https://github.com/bunsdev/dedevs-vscode/projects/1)
 
 ## Enabling Private Repositories
 
 If you want to view non-public repositories, you need to add an OAuth token. The token is stored only in your browser, and only send to GitHub when fetching your repository's files. Click on the icon near the bottom of the left-hand row of icons, and the dialog box will prompt you for it, and even take you to your GitHub settings page to generate one, if needed.
 
-<img height="500px" src="https://raw.githubusercontent.com/conwnet/github1s/master/resources/images/auth-token.png" />
+<img height="500px" src="https://raw.githubusercontent.com/bunsdev/dedevs-vscode/master/resources/images/auth-token.png" />
 
 ## Screenshots
 
-![VS Code - GitHub1s](https://raw.githubusercontent.com/conwnet/github1s/master/resources/images/GitHub1sDemo1.gif)
+![VS Code - GitHub1s](https://raw.githubusercontent.com/bunsdev/dedevs-vscode/master/resources/images/GitHub1sDemo1.gif)
 
-![VS Code - GitHub1s](https://raw.githubusercontent.com/conwnet/github1s/master/resources/images/demo.png)
+![VS Code - GitHub1s](https://raw.githubusercontent.com/bunsdev/dedevs-vscode/master/resources/images/demo.png)
 
 ## Development
 
@@ -53,17 +53,17 @@ If you want to view non-public repositories, you need to add an OAuth token. The
 
 You can start an online development environment with [Gitpod](https://www.gitpod.io) by clicking the following button:
 
-[![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/conwnet/github1s)
+[![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/bunsdev/dedevs-vscode)
 
 ### Local development
 
 ```bash
-git clone git@github.com:conwnet/github1s.git
+git clone git@github.com:bunsdev/dedevs-vscode.git
 cd github1s
 yarn
 yarn watch
 # The cli will automatically open http://localhost:8080 once the build is completed.
-# You can visit http://localhost:8080/conwnet/github1s if it doesn't.
+# You can visit http://localhost:8080/bunsdev/dedevs-vscode if it doesn't.
 ```
 
 #### Local development with full VS Code build
@@ -85,7 +85,7 @@ cd github1s
 yarn
 yarn watch-with-vscode
 # The cli will automatically open http://localhost:8080 once the build is completed.
-# You can visit http://localhost:8080/conwnet/github1s if it doesn't.
+# You can visit http://localhost:8080/bunsdev/dedevs-vscode if it doesn't.
 ```
 
 ### ... or ... VS Code + Docker Development
@@ -94,7 +94,7 @@ You can use the VS Code plugin [Remote-Containers](https://marketplace.visualstu
 
 1. Install the Remote-Containers plugin in VS Code & Docker
 2. Open the Command Palette (default shortcut `Ctrl+Shift+P`) and choose `Remote-Containers: Clone Repository in Container Volume...`
-3. Enter the repo, in this case `https://github.com/conwnet/github1s.git` or your forked repo
+3. Enter the repo, in this case `https://github.com/bunsdev/dedevs-vscode.git` or your forked repo
 4. Pick either, `Create a unique volume` or `Create a new volume`
 
    - Now VS Code will create the docker container and connect to the new container so you can use this as a fully setup environment!
@@ -105,7 +105,7 @@ You can use the VS Code plugin [Remote-Containers](https://marketplace.visualstu
 yarn
 yarn watch
 # The cli will automatically open http://localhost:8080 once the build is completed.
-# You can visit http://localhost:8080/conwnet/github1s if it doesn't.
+# You can visit http://localhost:8080/bunsdev/dedevs-vscode if it doesn't.
 ```
 
 ### Format all codes
@@ -125,7 +125,7 @@ yarn build
 
 ## Feedback
 
-- If something is not working, [create an issue](https://github.com/conwnet/github1s/issues/new)
+- If something is not working, [create an issue](https://github.com/bunsdev/dedevs-vscode/issues/new)
 
 ## Sponsors
 
@@ -133,7 +133,7 @@ The continued development and maintenance of GitHub1s is made possible by these 
 
 <table><tbody><tr>
 <td><a href="https://sourcegraph.com/">
-<img height="40px" src="https://raw.githubusercontent.com/conwnet/github1s/master/resources/images/sourcegraph-logo.svg">
+<img height="40px" src="https://raw.githubusercontent.com/bunsdev/dedevs-vscode/master/resources/images/sourcegraph-logo.svg">
 </a></td>
 </tr></tbody></table>
 
@@ -151,15 +151,15 @@ We are partnered with [OSS Insight](https://ossinsight.io/?utm_source=github1s&u
 
 <table>
   <tbody><tr>
-    <td align="center"><a href="https://github.com/conwnet"><img alt="" src="https://avatars.githubusercontent.com/conwnet" width="100px;"><br><sub><b>netcon</b></sub></a><br><a href="https://github.com/conwnet/github1s/commits?author=conwnet" title="Code">💻 🖋</a></td> </a></td>
-    <td align="center"><a href="https://github.com/xcv58"><img alt="" src="https://avatars.githubusercontent.com/xcv58" width="100px;"><br><sub><b>xcv58</b></sub></a><br><a href="https://github.com/conwnet/github1s/commits?author=xcv58" title="Code">💻 🖋</a></td></a></td>
-    <td align="center"><a href="https://github.com/Siddhant-K-code"><img alt="" src="https://avatars.githubusercontent.com/Siddhant-K-code" width="100px;"><br><sub><b>Siddhant Khare</b></sub></a><br><a href="https://github.com/conwnet/github1s/commits?author=Siddhant-K-code" title="Code">💻 🖋</a></td> </a></td>
+    <td align="center"><a href="https://github.com/conwnet"><img alt="" src="https://avatars.githubusercontent.com/conwnet" width="100px;"><br><sub><b>netcon</b></sub></a><br><a href="https://github.com/bunsdev/dedevs-vscode/commits?author=conwnet" title="Code">💻 🖋</a></td> </a></td>
+    <td align="center"><a href="https://github.com/xcv58"><img alt="" src="https://avatars.githubusercontent.com/xcv58" width="100px;"><br><sub><b>xcv58</b></sub></a><br><a href="https://github.com/bunsdev/dedevs-vscode/commits?author=xcv58" title="Code">💻 🖋</a></td></a></td>
+    <td align="center"><a href="https://github.com/Siddhant-K-code"><img alt="" src="https://avatars.githubusercontent.com/Siddhant-K-code" width="100px;"><br><sub><b>Siddhant Khare</b></sub></a><br><a href="https://github.com/bunsdev/dedevs-vscode/commits?author=Siddhant-K-code" title="Code">💻 🖋</a></td> </a></td>
   </tr>
 </tbody></table>
 
 ## Stargazers over time
 
-[![Stargazers over time](https://api.star-history.com/svg?repos=conwnet/github1s&type=Date)](https://star-history.com/#conwnet/github1s&Date)
+[![Stargazers over time](https://api.star-history.com/svg?repos=bunsdev/dedevs-vscode&type=Date)](https://star-history.com/#bunsdev/dedevs-vscode&Date)
 
 <details>
 <summary>Third-party Related Projects</summary>

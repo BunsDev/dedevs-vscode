@@ -1,10 +1,11 @@
 {
-  "name": "@github1s/vscode-web",
-  "version": "0.22.0",
-  "description": "VS Code web for GitHub1s",
-  "author": "github1s",
+  "name": "@dedevs/vscode-web",
+  "version": "0.0.1",
+  "description": "VS Code web for DeDevs",
+  "author": "dedevs",
+  "private": false,
   "license": "MIT",
-  "repository": "https://github.com/conwnet/github1s/issues/257",
+  "repository": "https://github.com/bunsdev/dedevs-vscode",
   "scripts": {
     "clone": "./scripts/clone-vscode.sh",
     "sync": "./scripts/sync-code.sh",
@@ -18,7 +19,6 @@
     "watch:src": "cd scripts/watch && node watch-src.js",
     "watch:dist": "cd scripts/watch && node watch-dist.js"
   },
-  "private": false,
   "files": [
     "/dist",
     ".VERSION"
@@ -26,7 +26,7 @@
   "keywords": [
     "vscode",
     "vscode-web",
-    "github1s"
+    "dedevs"
   ],
   "devDependencies": {
     "chokidar": "^4.0.1",

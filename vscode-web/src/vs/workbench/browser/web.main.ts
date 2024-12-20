@@ -606,7 +606,7 @@ export class BrowserMain extends Disposable {
 			workspace = this.configuration.workspaceProvider.workspace;
 		}
 
-		/* below codes are changed by github1s */
+		/* below codes are changed by dedevs-vscode */
 		const id = window?.vscodeWeb?.workspaceId;
 
 		// Multi-root workspace
@@ -622,6 +622,6 @@ export class BrowserMain extends Disposable {
 		}
 
 		return id ? { id } : UNKNOWN_EMPTY_WINDOW_WORKSPACE;
-		/* above codes are changed by github1s */
+		/* above codes are changed by dedevs-vscode */
 	}
 }

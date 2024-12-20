@@ -6,7 +6,6 @@
  * would add the cache header to this 404 response, which caused
  * the user can not get right resources anymore. so we should
  * fallback to here and clear the cache header for such 404 requests.
- * See also: https://github.com/conwnet/github1s/issues/299
  * @author netcon
  */
 

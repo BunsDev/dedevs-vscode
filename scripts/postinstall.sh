@@ -5,7 +5,7 @@ cd "$(dirname "${0}")/.."
 APP_ROOT=$(pwd)
 
 function main() {
-	# install github1s extensions dependencies
+	# install dedevs-vscode extensions dependencies
 	for entry in "${APP_ROOT}/extensions"/*
 	do
 		if [ -f "$entry/package.json" ]
@@ -15,7 +15,7 @@ function main() {
 		fi
 	done
 
-	# install dependencies for the @github1s/vscode-web
+	# install dependencies for the @dedevs/vscode-web
 	cd "${APP_ROOT}/vscode-web"
 	yarn --frozen-lockfile
 }

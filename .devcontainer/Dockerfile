@@ -4,7 +4,7 @@
 ARG VARIANT="14-buster"
 FROM mcr.microsoft.com/devcontainers/typescript-node:${VARIANT}
 
-# same package list from github1s/scripts/preinstall.sh
+# same package list from dedevs-vscode/scripts/preinstall.sh
 RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \
     && apt-get -y install --no-install-recommends libx11-dev libxkbfile-dev libsecret-1-dev rsync
 

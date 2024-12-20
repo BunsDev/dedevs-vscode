@@ -1,7 +1,7 @@
 {
   "name": "github1s-test",
   "version": "1.0.0",
-  "description": "test case for github1s",
+  "description": "test case for dedevs-vscode",
   "devDependencies": {
     "@types/jest": "^26.0.20",
     "@types/jest-image-snapshot": "^4.3.0",

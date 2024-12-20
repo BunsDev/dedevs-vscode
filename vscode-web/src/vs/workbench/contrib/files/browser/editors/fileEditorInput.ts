@@ -184,9 +184,9 @@ export class FileEditorInput extends AbstractTextResourceEditorInput implements 
 	}
 
 	private allowLabelOverride(): boolean {
-		/* below codes are changed by github1s */
+		/* below codes are changed by dedevs-vscode */
 		if (window?.vscodeWeb?.allowEditorLabelOverride) return true;
-		/* above codes are changed by github1s */
+		/* above codes are changed by dedevs-vscode */
 		return this.resource.scheme !== this.pathService.defaultUriScheme &&
 			this.resource.scheme !== Schemas.vscodeUserData &&
 			this.resource.scheme !== Schemas.file &&
