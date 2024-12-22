@@ -8,7 +8,7 @@
   },
   "scripts": {
     "preinstall": "./scripts/preinstall.sh",
-    "postinstall": "husky install && ./scripts/postinstall.sh",
+    "postinstall": "./scripts/postinstall.sh",
     "dev": "yarn watch",
     "build": "./scripts/build.sh",
     "clean": "./scripts/clean.sh",
