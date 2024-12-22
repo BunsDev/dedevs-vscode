@@ -7,6 +7,11 @@
   resolved "https://registry.yarnpkg.com/@cloudflare/workers-types/-/workers-types-4.20240722.0.tgz#f5b9579fe5ff14077ae425208af6dea74249d130"
   integrity sha512-/N072r7w7jNCgciRtImOQnHODn8CNwl3NHGO2lmC5bCsgevTRNeNj6B2IjS+OgEfo0qFoBgLejISl6ot9QvGvA==
 
+"@dedevs/vscode-web@0.0.1":
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/@dedevs/vscode-web/-/vscode-web-0.0.1.tgz#af495d0e2d5cf2e6b8d75be49e10dc399151df1d"
+  integrity sha512-Q6dZyFUBu4IjabmKEo7U3KO0ymB23rkt6vC2pj/DaEWW0cUBy3VceEpEgk4oTSukJwfJIcffTP8JNmsJpPmdVQ==
+
 "@discoveryjs/json-ext@^0.5.0":
   version "0.5.7"
   resolved "https://registry.yarnpkg.com/@discoveryjs/json-ext/-/json-ext-0.5.7.tgz#1d572bfbbe14b7704e0ba0f39b74815b84870d70"
@@ -35,11 +40,6 @@
     js-yaml "^4.1.0"
     minimatch "^3.1.2"
     strip-json-comments "^3.1.1"
-
-"@github1s/vscode-web@0.22.0":
-  version "0.22.0"
-  resolved "https://registry.yarnpkg.com/@github1s/vscode-web/-/vscode-web-0.22.0.tgz#757c026f48347aaacb4dd550b5832caf4b3148c8"
-  integrity sha512-B8gyygAnNjKw/R2ZhkDYfx95KIxcExib8qVzjxQAbvRwofaie1FjdZkVAHkw+/Ku4gSWHQ2dMWQpjY6Iq7UaNA==
 
 "@hapi/hoek@^9.0.0":
   version "9.3.0"
