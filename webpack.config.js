@@ -44,19 +44,19 @@ module.exports = (env, argv) => {
 						...skipMinified,
 					},
 					!devVscode && {
-						from: 'node_modules/@github1s/vscode-web/dist/vscode',
+						from: 'node_modules/@dedevs/vscode-web/dist/vscode',
 						to: `static-${STATIC_HASH}/vscode`,
 						globOptions: { ignore: ['**/*.js.map'] },
 						...skipMinified,
 					},
 					!devVscode && {
-						from: 'node_modules/@github1s/vscode-web/dist/extensions',
+						from: 'node_modules/@dedevs/vscode-web/dist/extensions',
 						to: `static-${STATIC_HASH}/extensions`,
 						globOptions: { ignore: ['**/*.js.map'] },
 						...skipMinified,
 					},
 					!devVscode && {
-						from: 'node_modules/@github1s/vscode-web/dist/web-packages',
+						from: 'node_modules/@dedevs/vscode-web/dist/web-packages',
 						to: `static-${STATIC_HASH}/web-packages`,
 						...skipMinified,
 					},

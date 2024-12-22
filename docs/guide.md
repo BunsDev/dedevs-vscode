@@ -61,7 +61,7 @@ It is a little laborious to complete the watch process, but I didn't think of a 
 
 What happens after you run `yarn watch`?
 
-It's the same procedure as `yarn watch-with-vscode` without the step 2, 3, and 4. Instead of the local VS Code, it uses the prebuilt [@github1s/vscode-web](https://www.npmjs.com/package/@github1s/vscode-web) version.
+It's the same procedure as `yarn watch-with-vscode` without the step 2, 3, and 4. Instead of the local VS Code, it uses the prebuilt [@dedevs/vscode-web](https://www.npmjs.com/package/@dedevs/vscode-web) version.
 
 ## Build mode
 
